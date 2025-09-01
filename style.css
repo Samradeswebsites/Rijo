@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Georgia', serif;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 
@@ -58,7 +58,7 @@ h1 {
 }
 
 .service-section {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
   scroll-margin-top: 100px;
@@ -72,7 +72,7 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   width: 97%;
-  max-width: 1500px;
+  max-width: 1200px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -88,8 +88,7 @@ h1 {
 .service-section p {
   color: #ffffff;
   font-size:22px;
-  max-width: 1500px;
-  margin: 0 auto 30px;
+  max-width: 1200px;
   line-height: 1.6;
   font-weight: bold;
 }
@@ -545,8 +544,8 @@ nav a:hover::after {
   font-size: 24px;
   cursor: pointer;
   user-select: none;
-  padding: 10px;
-  background-color: #92113c;
+  padding: 8px;
+  background-color: #ffffff;
   max-width: fit-content;
 }
 /* --- GENERAL STYLES --- */
@@ -569,7 +568,7 @@ header {
 }
 
 .brand {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   display: inline;
 
@@ -860,7 +859,7 @@ nav a:hover {
   width: 35px;
   color: #e9195e;
   margin: 4px 2px;
-  border-radius: 2px;
+  border-radius: 50px;
   transition: all 0.3s ease;
 }
 
@@ -1365,10 +1364,6 @@ footer {
     margin: 10px 15px;
   }
 
-
-
-  
-
   .founder-image img,
   .logo {
     width: 150px;
@@ -1407,6 +1402,7 @@ footer {
   .about-section p,
   .founder-content p {
     font-size: 20px;
+    margin: 10px;
   }
 
   .gallery-grid,
@@ -1429,6 +1425,7 @@ footer {
     padding: 15px;
     text-align: center;
     gap: 20px;
+
   }
 
   .logo {
@@ -1437,7 +1434,7 @@ footer {
   }
 
   nav {
-    top:auto;
+    margin-top: 40px;
     flex-direction: column;
     padding: 10px 0;
     font-size: 26px;
@@ -1446,11 +1443,11 @@ footer {
   nav a {
     margin: 8px 0;
     font-size: 16px;
-    padding:15px 160px ;
+    padding: 5px 110px ;
   }
 
   .brand {
-    font-size: 26px;
+    font-size: 29px;
     position: static;
     transform: none;
     margin-top: 10px;
@@ -1513,7 +1510,7 @@ footer {
   .contacts-grid p,
   .founder-content p,
   .about-section p {
-    font-size: 16px;
+    font-size: 16px;    
   }
 
   .gallery-section h2,
