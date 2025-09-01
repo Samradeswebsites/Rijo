@@ -576,6 +576,8 @@ header {
 
 .social-icons {
   display: flex;
+  text-align: center;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -1381,7 +1383,7 @@ footer {
 
   .services-section h2,
   .gallery-section h2 {
-    font-size: 260px;
+    font-size: 26px;
   }
 }
 /* ============ Responsive for tablets (max-width: 1024px) ============ */
